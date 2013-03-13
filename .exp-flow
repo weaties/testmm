@@ -1,0 +1,9 @@
+{
+    "Promotion_paths": [
+        ["integration", "master"],
+        ["hf", "master"],
+        ["trunk", "integration"],
+        ["dev", "trunk"]
+    ]
+
+}
