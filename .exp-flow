@@ -1,7 +1,7 @@
 {
     "Promotion_paths": [
         ["integration", "master"],
-        ["hf", "master"],
+        ["int-milan", "master"],
         ["trunk", "integration"],
         ["dev", "trunk"]
     ]
