@@ -7,4 +7,8 @@ a random string 74
 a random string 8
 a random string 29
 a random string 59
+<<<<<<< HEAD
 gonna work on conflict resolution
+=======
+added on integration - gonna make conflict
+>>>>>>> trunk
