@@ -1,6 +1,7 @@
 puts "in my riby script"
 status = `git status`
-branch = /# On Branch (\w+)/.match(status)
+puts "trying my match " 
+branch = status.match(/On branch (\w+)/)[1]
 puts "Branch is #{branch}"
 
 puts `echo a random string #{rand(100)} >> c3.txt`
