@@ -4,6 +4,6 @@ puts "trying my match "
 branch = status.match(/On branch (\w+)/)[1]
 puts "Branch is #{branch}"
 
-puts `echo a random string #{rand(100)} >> c3.txt`
-puts `git commit -a -m "adding a item to c3.txt and going to promote"`
-puts `git push origin dev`
+puts `echo a random string #{rand(100)} >> #{branch}.txt`
+puts `git commit -a -m "adding a item to #{branch}.txt on branch #{branch} and going to promote"`
+puts `git push origin #{branch}`
