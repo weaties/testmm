@@ -5,3 +5,6 @@ this is a test
 * Bullet 2
 
 ## Heading 2
+
+- [ ] check item 1
+- [ ] check item 2
