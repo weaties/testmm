@@ -40,3 +40,4 @@ a random string 12
 a random string 1
 a random string 54
 a random string 7
+a not randome string 1
